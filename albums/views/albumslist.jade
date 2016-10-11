@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 #{title}
+    p
+      a(href="/albums/new") New Album
+
+  table({"border: 6px solid black"})
+   tr
+    th Genre
+    th Artist
+    th Albums
+   tr
+    td Jazz
+    td Miles Davis
+    td
+     a(href="/") Kind of Blue
